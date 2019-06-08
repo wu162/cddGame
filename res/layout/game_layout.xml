@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <com.example.view.GameView
+		android:id="@+id/game"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="@drawable/gamebg">
+	
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:orientation="horizontal"
+    		android:layout_weight="2">
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="20dp"
+	            android:layout_marginLeft="200dp"
+	            android:text="@string/duijia"
+	            android:textColor="#ffffff"
+	            android:textSize="14sp"/>
+	        
+	        <ImageView 
+	            android:scaleType="fitXY"
+            	android:layout_width="60dp"
+            	android:layout_height="60dp"
+            	android:layout_marginLeft="2dp"
+            	android:layout_gravity="center"
+            	android:src="@drawable/pc1"/>
+	        
+	        <LinearLayout 
+	            android:layout_width="wrap_content"
+    			android:layout_height="match_parent"
+    			android:layout_marginLeft="4dp"
+    			android:orientation="vertical">
+    			
+	            <ImageView 
+	            	android:scaleType="fitXY"
+            		android:layout_width="28dp"
+            		android:layout_height="33dp"
+            		android:layout_marginTop="6dp"
+            		android:src="@drawable/cardback"/>
+	            <TextView 
+	                android:id="@+id/pc1num"
+	            	android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_marginTop="1dp"
+	            	android:text="3"
+	            	android:layout_gravity="center"
+	            	android:textColor="#FFFF37"
+	            	android:textSize="10sp"/>
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+    			android:orientation="vertical">
+	            
+	            <TextView 
+			        android:layout_width="120dp"
+			        android:layout_height="24dp"
+			        android:gravity="center"
+			        android:text="123"
+			        android:textColor="#FFFF37"
+			        android:textSize="14sp"
+			        android:paddingTop="0dp"
+			        android:paddingLeft="50dp"
+	            	android:layout_gravity="end"
+	            	android:background="@drawable/scorebar"/>
+	            
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+    		android:layout_height="0dp"
+    		android:orientation="horizontal"
+    		android:layout_weight="6">
+	        
+	        <LinearLayout 
+	        	android:layout_width="80dp"
+    			android:layout_height="match_parent"
+    			android:orientation="vertical">
+	        
+		        <TextView 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:paddingTop="8dp"
+		            android:gravity="center"
+		            android:text="@string/shangjia"
+		            android:textColor="#ffffff"
+		            android:textSize="14sp"/>
+		        
+		        <ImageView 
+		            android:scaleType="fitXY"
+	            	android:layout_width="60dp"
+	            	android:layout_height="60dp"
+	            	android:layout_marginLeft="20dp"
+	            	android:src="@drawable/pc2"/>
+		        
+			    <LinearLayout 
+		            android:layout_width="match_parent"
+	    			android:layout_height="wrap_content"
+	    			android:orientation="horizontal"
+	    			android:layout_marginTop="4dp">
+	    			<ImageView 
+				            android:scaleType="fitXY"
+		            		android:layout_width="28dp"
+	            			android:layout_height="33dp"
+		            		android:layout_marginLeft="20dp"
+		            		android:src="@drawable/cardback"/>
+				        
+				        <TextView 
+				            android:id="@+id/pc2num"
+			            	android:layout_width="wrap_content"
+			            	android:layout_height="wrap_content"
+			            	android:text="4"
+			            	android:layout_marginTop="7dp"
+			            	android:textColor="#FFFF37"
+			            	android:textSize="10sp"/>
+			    </LinearLayout>
+						
+						<ImageView 
+							android:scaleType="fitXY"
+							android:layout_width="60dp"
+							android:layout_height="60dp"
+							android:layout_marginLeft="20dp"
+							android:layout_marginTop="50dp"
+							android:src="@drawable/pc2"/>
+						
+						<TextView 
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center"
+							android:text="tk"
+							android:layout_marginTop="2dp"
+							android:textColor="#FFFFFF"
+							android:textSize="10sp"/>
+	    	</LinearLayout>
+			
+	        <LinearLayout 
+	        	android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+    			android:orientation="vertical"
+    			android:layout_weight="5">
+			    
+	            
+	            <LinearLayout
+	                android:layout_width="match_parent"
+    				android:layout_height="160dp"
+    				android:orientation="horizontal">
+	            
+	            	<LinearLayout
+	                	android:layout_width="0dp"
+    					android:layout_height="match_parent"
+    					android:orientation="vertical"
+    					android:layout_weight="1">
+    					
+	            	    <LinearLayout
+		            	    android:id="@+id/pc2cardshow"
+		                	android:layout_width="match_parent"
+		                	android:layout_marginTop="20dp"
+	    					android:layout_height="85dp"
+	    					android:orientation="horizontal">
+	            
+		            		<!-- <ImageView
+				            	android:scaleType="fitXY"
+				            	android:layout_width="61dp"
+				            	android:layout_height="78dp"
+				            	android:layout_marginLeft="5dp"
+				            	android:src="@drawable/clubeight"/>-->
+	            		
+	            		</LinearLayout>
+	            		
+	            	    <Button 
+			                android:id="@+id/pass"
+			        		android:layout_width="60dp"
+					        android:layout_height="30dp"
+					        android:layout_marginTop="20dp"
+					        android:layout_marginLeft="5dp"
+					        android:background="@drawable/button_selector_bo"
+					        android:text="@string/pass"
+					        android:layout_centerInParent="true"
+					        android:textColor="#FFFF37"
+					        android:textSize="14sp"
+					        android:elevation="5dp"/>
+	            
+	            	</LinearLayout>
+	            	
+	            	<LinearLayout
+	                	android:layout_width="0dp"
+    					android:layout_height="match_parent"
+    					android:orientation="vertical"
+    					android:layout_marginTop="-10dp"
+    					android:layout_weight="2">
+	            	    
+	            	    <LinearLayout
+		            	    android:id="@+id/pc1cardshow"
+		                	android:layout_width="match_parent"
+	    					android:layout_height="85dp"
+	    					android:orientation="horizontal"
+	    					android:gravity="center">
+	            	    
+		            	    <!--<ImageView
+				            	android:scaleType="fitXY"
+				            	android:layout_width="61dp"
+				            	android:layout_height="78dp"
+				            	android:layout_marginLeft="5dp"
+				            	android:src="@drawable/clubeight"/>-->
+		            	    
+	            	    </LinearLayout>
+	            	    
+	            	    <LinearLayout
+		            	    android:id="@+id/playercardshow"
+		                	android:layout_width="match_parent"
+	    					android:layout_height="85dp"
+	    					android:layout_marginTop="5dp"
+	    					android:orientation="horizontal"
+	    					android:gravity="center">
+	            	    
+		            	    <!-- <ImageView
+				            	android:scaleType="fitXY"
+				            	android:layout_width="61dp"
+				            	android:layout_height="78dp"
+				            	android:layout_marginLeft="5dp"
+				            	android:src="@drawable/clubeight"/>-->
+		            	    
+	            	    </LinearLayout>
+	            	    
+	            	</LinearLayout>
+	            	
+	            	<LinearLayout
+	                	android:layout_width="0dp"
+    					android:layout_height="match_parent"
+    					android:orientation="vertical"
+    					android:layout_weight="1">
+    					
+	            	    <LinearLayout
+		            	    android:id="@+id/pc0cardshow"
+		                	android:layout_width="match_parent"
+		                	android:layout_marginTop="20dp"
+	    					android:layout_height="85dp"
+	    					android:orientation="horizontal"
+	    					android:gravity="end">
+	            
+		            		<!-- <ImageView
+				            	android:scaleType="fitXY"
+				            	android:layout_width="61dp"
+				            	android:layout_height="78dp"
+				            	android:layout_marginLeft="5dp"
+				            	android:src="@drawable/clubeight"/>-->
+	            		
+	            		</LinearLayout>
+	            		
+	            	    <Button 
+			                android:id="@+id/playcard"
+			        		android:layout_width="60dp"
+					        android:layout_height="30dp"
+					        android:layout_marginTop="20dp"
+					        android:layout_marginLeft="5dp"
+					        android:background="@drawable/button_selector_bo"
+					        android:text="@string/chupai"
+					        android:layout_centerInParent="true"
+					        android:textColor="#FFFF37"
+					        android:textSize="14sp"
+					        android:elevation="5dp"
+					        android:layout_gravity="end"/>
+	            
+	            	</LinearLayout>
+	            
+	            </LinearLayout>
+	        
+	            <!-- <LinearLayout 
+	                android:id="@+id/cardshow"
+	                android:layout_width="match_parent"
+    				android:layout_height="100dp"
+    				android:orientation="horizontal"
+    				android:gravity="center">
+		                <ImageView
+		            	android:scaleType="fitXY"
+		            	android:layout_width="61dp"
+		            	android:layout_height="78dp"
+		            	android:layout_marginLeft="20dp"
+		            	android:layout_marginTop="5dp"
+		            	android:src="@drawable/clubeight"/>
+	            
+	            </LinearLayout>
+	            
+	            
+	            
+	            <Button 
+	                android:id="@+id/playcard"
+	        		android:layout_width="50dp"
+			        android:layout_height="20dp"
+			        android:layout_marginBottom="10dp"
+			        android:layout_marginRight="20dp"
+			        android:background="@drawable/button_selector_bo"
+			        android:text="@string/chupai"
+			        android:layout_gravity="end"
+			        android:layout_centerInParent="true"
+			        android:textColor="#FFFF37"
+			        android:textSize="14sp"
+			        android:elevation="5dp"/>-->
+	            
+	            <LinearLayout 
+			        android:id="@+id/cardlist"
+		        	android:layout_width="match_parent"
+	    			android:layout_height="match_parent"
+	    			android:orientation="horizontal">
+						
+	                <ImageView
+	            	android:scaleType="fitXY"
+	            	android:layout_width="61dp"
+	            	android:layout_height="78dp"
+	            	android:layout_marginLeft="20dp"
+	            	android:layout_marginTop="20dp"
+	            	android:layout_gravity="center"
+	            	android:src="@drawable/clubeight"/>
+	            
+				</LinearLayout>
+	            
+			</LinearLayout>
+	        
+	        <LinearLayout 
+	        	android:layout_width="80dp"
+    			android:layout_height="match_parent"
+    			android:orientation="vertical">
+	        
+		        <TextView 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:paddingTop="8dp"
+		            android:gravity="center"
+		            android:text="@string/xiajia"
+		            android:textColor="#ffffff"
+		            android:textSize="14sp"/>
+		        
+		        <ImageView 
+		            android:scaleType="fitXY"
+	            	android:layout_width="60dp"
+	            	android:layout_height="60dp"
+	            	android:layout_marginLeft="20dp"
+	            	android:src="@drawable/pc3"/>
+		        
+			    <LinearLayout 
+		            android:layout_width="match_parent"
+	    			android:layout_height="match_parent"
+	    			android:orientation="horizontal"
+	    			android:layout_marginTop="4dp">
+		            
+			        <ImageView 
+			            android:scaleType="fitXY"
+	            		android:layout_width="28dp"
+            			android:layout_height="33dp"
+	            		android:layout_marginLeft="20dp"
+	            		android:src="@drawable/cardback"/>
+			        
+			        <TextView 
+			            android:id="@+id/pc0num"
+		            	android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="4"
+		            	android:layout_marginTop="7dp"
+		            	android:textColor="#FFFF37"
+		            	android:textSize="10sp"/>
+		            
+		        </LinearLayout>
+	        
+	    	</LinearLayout>
+	        
+	    </LinearLayout>
+	    
+    </com.example.view.GameView>

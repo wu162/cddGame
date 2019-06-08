@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <com.example.view.AboutView
+		android:id="@+id/about"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="@drawable/bgcolor">
+	
+	    <Button 
+	        android:id="@+id/about_returnbutton"
+	        android:layout_width="70dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/button_selector_bo"
+	        android:text="@string/returnbutton"
+	        android:layout_marginTop="0dp"
+	        android:layout_marginLeft="0dp"
+	        android:layout_gravity="left"
+	        android:layout_centerInParent="true"
+	        android:textColor="#ffffff"
+	        android:textSize="17sp"
+	        android:elevation="5dp"/>
+	    
+	    <LinearLayout
+	        android:layout_width="400dp"
+    		android:layout_height="300dp"
+    		android:orientation="vertical"
+    		android:layout_gravity="center"
+    		android:background="@drawable/aboutborder">
+	        
+	        <ImageView 
+	            android:id="@+id/helpPic"
+	        	android:scaleType="fitXY"
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:layout_gravity="center"
+            	android:src="@drawable/about"/>
+	        
+	    </LinearLayout>
+	    
+	    
+	    
+    </com.example.view.AboutView>
